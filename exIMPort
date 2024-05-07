@@ -1,0 +1,12 @@
+--to export DB
+
+>> mysqldump -u root -p database_name > myDataBase.sql
+>> exit
+
+--to import DB
+
+>> CREATE DATABASE myDataBase;
+>> exit
+
+--terminal
+mysql -u root -p my_database < myDataBase.sql
