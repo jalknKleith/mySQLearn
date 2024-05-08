@@ -1,0 +1,27 @@
+--add columns
+ALTER TABLE tableName
+ADD columnName datatype;
+
+--drop column
+ALTER TABLE tableName
+DROP COLUMN columnName;
+
+--modify column
+ALTER TABLE tableName
+MODIFY COLUMN columnName datatype;
+
+--add primary key
+ALTER TABLE tableName
+ADD PRIMARY KEY (columnName);
+
+--drop primary key
+ALTER TABLE tableName
+DROP PRIMARY KEY;
+
+--add foreign key
+ALTER TABLE tableName
+ADD FOREIGN KEY (columnName) REFERENCES anotherTableName(columnName);
+
+--limit the value
+ALTER TABLE tableName
+ADD CHECK (Age>=18);
