@@ -45,6 +45,12 @@ SELECT colNAME FROM tableNAME WHERE colNAME IS NOT NULL;
 UPDATE tableNAME SET column1 = value1;
 UPDATE tableNAME SET column1 = value1, column2 = value WHERE condition;
 
+-- to insert values
+INSERT INTO tableNAME (columNAME) VALUES ('Value1');
+
+-- to see values
+SELECT * FROM tableNAME;
+
 -- to delete all records
 DELETE FROM tableNAME;
 
