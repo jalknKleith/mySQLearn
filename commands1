@@ -19,19 +19,31 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '12345678';
 -- to see DB
 SHOW DATABASES;
 
+-- to search DB 
+SELECT DBname;
+
 -- to use DB
 USE DBname;
 
 -- to see TABLES
 SHOW TABLES;
 
+-- to create table
+CREATE TABLE tableName(
+columName1 INT PRIMARY KEY AUTO_INCREMENT,
+columName2 varchar(20) UNIQUE NOT NULL
+);
+
 -- to see the table structure
 DESCRIBE tableName;
 
--- to search DB 
-SELECT DBname;
+-- to insert values
+INSERT INTO tableNAME (columNAME) VALUES ('Value1');
 
--- to change table name
+-- to see values
+SELECT * FROM tableNAME;
+
+-- to change the table name
 ALTER TABLE 'tableName' CHANGE 'currentColNAME' 'newColNAME';
 
 -- to order by
@@ -44,12 +56,6 @@ SELECT colNAME FROM tableNAME WHERE colNAME IS NOT NULL;
 -- to update statements
 UPDATE tableNAME SET column1 = value1;
 UPDATE tableNAME SET column1 = value1, column2 = value WHERE condition;
-
--- to insert values
-INSERT INTO tableNAME (columNAME) VALUES ('Value1');
-
--- to see values
-SELECT * FROM tableNAME;
 
 -- to delete all records
 DELETE FROM tableNAME;
