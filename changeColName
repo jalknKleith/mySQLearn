@@ -1,3 +1,0 @@
--- change the column name
-
-ALTER TABLE 'tableName' CHANGE 'currentColNAME' 'newColNAME';
