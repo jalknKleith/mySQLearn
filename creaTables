@@ -9,3 +9,9 @@ columName4 varchar(50) NOT NULL,
 columName5 float NULL,
 columName6 DATE NULL
 );
+
+--create table using another table
+CREATE TABLE newTableName AS
+SELECT columnName1, columnName2, ...
+FROM tableName;
+
