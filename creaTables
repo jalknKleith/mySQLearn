@@ -1,7 +1,7 @@
 CREATE DATABASE DBname;
 USE DBname;
 CREATE TABLE tableName(
--- columns, dataType, restrictions
+-- columns, dataTypes, restrictions
 columName1 INT PRIMARY KEY AUTO_INCREMENT,
 columName2 varchar(20) UNIQUE NOT NULL,
 columName3 varchar(50) NOT NULL,
