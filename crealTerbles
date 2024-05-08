@@ -15,3 +15,10 @@ CREATE TABLE newTableName AS
 SELECT columnName1, columnName2, ...
 FROM tableName;
 
+--add columns
+ALTER TABLE tableName
+ADD columnName datatype;
+
+--drop column
+ALTER TABLE tableName
+DROP COLUMN columnName;
