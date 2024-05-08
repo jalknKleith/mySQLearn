@@ -1,0 +1,11 @@
+- format YYYY-MM-DD
+DATE
+
+- format: YYYY-MM-DD HH:MI:SS
+DATETIME 
+
+- format: YYYY-MM-DD HH:MI:SS
+TIMESTAMP 
+
+- format YYYY or YY
+YEAR 
