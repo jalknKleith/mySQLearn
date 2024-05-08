@@ -1,3 +1,4 @@
+"""
 DATE	A date.
 Format: YYYY-MM-DD.
 from '1000-01-01' to '9999-12-31'
@@ -22,3 +23,4 @@ The supported range is from '-838:59:59' to '838:59:59'
 
 YEAR	A year in four-digit format.
 Values allowed in four-digit format: 1901 to 2155, and 0000.
+"""
