@@ -22,3 +22,7 @@ ADD columnName datatype;
 --drop column
 ALTER TABLE tableName
 DROP COLUMN columnName;
+
+--modify column
+ALTER TABLE tableName
+MODIFY COLUMN columnName datatype;
