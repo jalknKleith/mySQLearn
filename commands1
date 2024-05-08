@@ -1,32 +1,8 @@
--- to see DB
-SHOW databases;
-
--- to use DB
-USE DBname;
-
--- to see TABLES
-SHOW tables;
-
--- to seeSTRUCTURE OF THE TABLE
-DESCRIBE tableName;
-
--- to search DB 
-SELECT DBname;
-
--- to log with password
-mysql -u root -p
-
 -- to log
 mysql -u root
 
--- to change username  
-ALTER USER 'root'@'localhost' IDENTIFIED BY '12345678';
-
--- to change table name
-ALTER TABLE 'tableName' CHANGE 'currentColNAME' 'newColNAME';
-
--- to order by
-SELECT colNAME FROM tableNAME order by colNAME ASC|DESC;
+-- to log with password
+mysql -u root -p
 
 -- to export DB
 mysqldump -u root -p database_name > export.sql
@@ -34,8 +10,32 @@ mysqldump -u root -p database_name > export.sql
 -- to import DB
 mysql -u root -p
 >>CREATE DATABASE DBname;
->> exit
+>> exit or CTRL+D
 mysql -u root -p DBname < myDBname.sql
+
+-- to change username  
+ALTER USER 'root'@'localhost' IDENTIFIED BY '12345678';
+
+-- to see DB
+SHOW DATABASES;
+
+-- to use DB
+USE DBname;
+
+-- to see TABLES
+SHOW TABLES;
+
+-- to see the table structure
+DESCRIBE tableName;
+
+-- to search DB 
+SELECT DBname;
+
+-- to change table name
+ALTER TABLE 'tableName' CHANGE 'currentColNAME' 'newColNAME';
+
+-- to order by
+SELECT colNAME FROM tableNAME order by colNAME ASC|DESC;
 
 -- to test for null values
 SELECT colNAME FROM tableNAME WHERE colNAME IS NULL;
