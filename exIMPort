@@ -5,4 +5,4 @@ mysqldump -u root -p DBname > myDB.sql
 mysqldump -u root -p
 >> CREATE DATABASE myDB;
 >> exit or ctrl+D
-mysql -u root -p DBname < myDB.sql
+mysql -u root -p myDB < myDB.sql
