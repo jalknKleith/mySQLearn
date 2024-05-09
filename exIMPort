@@ -2,7 +2,7 @@
 mysqldump -u root -p DBname > myDB.sql
 
 --to import DB
-mysqldump -u root -p
+mysql -u root -p
 >> CREATE DATABASE myDB;
 >> exit or ctrl+D
 mysql -u root -p myDB < myDB.sql
