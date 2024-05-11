@@ -21,3 +21,6 @@ Finds any values that start with "a" and are at least 3 characters in length
 
 WHERE colName LIKE 'a%o'
 Finds any values that start with "a" and ends with "o"
+
+WHERE colName LIKE '_ork'
+Finds any values that start with any character, followed by "ork"
