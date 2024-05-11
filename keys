@@ -9,4 +9,4 @@ DROP PRIMARY KEY;
 --add foreign key
 ALTER TABLE tableName
 ADD FOREIGN KEY (columnName)
-REFERENCES anotherTableName(columnName);
+REFERENCES foreignTableName(columnName);
