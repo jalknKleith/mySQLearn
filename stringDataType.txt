@@ -28,7 +28,7 @@ LONGTEXT	Holds a string with a maximum length of 4,294,967,295 characters
 
 LONGBLOB	For BLOBs (Binary Large OBjects). Holds up to 4,294,967,295 bytes of data
 
-ENUM(val1, val2, val3, ...) You can list up to 65535 values in an ENUM list.
+ENUM(val1, val2, val3, ...)You can list up to 65535 values in an ENUM list.
 
 SET(val1, val2, val3, ...)	A string object that can have 0 or more values,
 You can list up to 64 values in a SET list
