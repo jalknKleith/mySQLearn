@@ -1,5 +1,5 @@
 --to export DB
-mysqldump -u root -p DBname > myDB.sql
+mysqldump -u root -p -R DBname > myDB.sql
 
 --to import DB
 mysql -u root -p
